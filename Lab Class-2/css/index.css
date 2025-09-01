@@ -1,0 +1,43 @@
+img{
+    width: 500px;
+    height: 500px;
+}
+body{
+    background-image: url('../image/image2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}   
+
+    p{
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    color: bisque;
+    text-align: justify;
+    }
+    a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      img{
+        float: right;  
+    }

@@ -1,0 +1,51 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background: #f7f7f7;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .btn-info {
+      background-color: #17a2b8;
+      color: white;
+    }
+
+    .btn-info:hover {
+      background-color: #138496;
+    }
+
+    .btn-danger {
+      background-color: #1772d4;
+      color: white;
+    }
+
+    .btn-danger:hover {
+      background-color: #4267de;
+    }
+
+    #paraId {
+      margin-top: 20px;
+      padding: 15px;
+      background: #d1ecf1;
+      border-radius: 5px;
+      font-size: 18px;
+    }
+
+    img {
+      margin-top: 20px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+    }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Info</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <style>
+      h1 {
+        color: rgb(4, 4, 5);
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Student Records</h1>
+
+    <table>
+      <caption>
+        Student Details
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Grade</th>
+      </tr>
+      <tr>
+        <td >
+          Nobin Chandra
+        </td>
+        <td>IIT</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>Raju</td>
+        <td>Math</td>
+        <td>B</td>
+      </tr>
+      <tr><td colspan="3">Total student: </td></tr>
+    </table>
+
+    <div class="test">
+      This section explains about **HTML basics**. HTML stands for HyperText
+      Markup Language and is used to structure a web page with tags.
+    </div>
+    <div class="test">
+      CSS is used for styling web pages. It controls layout, colors, spacing,
+      and makes pages responsive across different devices.
+    </div>
+    <div class="test">
+      JavaScript adds functionality to a website. It can handle events,
+      validate forms, and make interactive web applications.  
+      Example: <span id="myspan">alert()</span> shows a message box.
+    </div>
+
+    <iframe
+      class="center"
+      src="html/second.html"
+      width="500px"
+      height="300px"
+    ></iframe>
+
+    <form action="second.html" class="form-box">
+      <label for="fname">First Name</label>
+      <input type="text" name="fname" id="fname" />
+      <label for="lname">Last Name</label>
+      <input type="text" name="lname" id="lname" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

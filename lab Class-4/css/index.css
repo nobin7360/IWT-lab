@@ -1,0 +1,107 @@
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+table {
+  background-color: white;
+  border: 2px solid #63b87c;
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding: 10px;
+  border-collapse: collapse;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+caption {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #023e8a;
+}
+
+tr, th, td {
+  border: 1px solid #0077b6;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f9fa;
+  color: #03045e;
+}
+
+tr:nth-child(even) {
+  background-color: #caf0f8;
+}
+
+.test {
+  background-color: #fefae0;
+  border-radius: 15px;
+  color: #333;
+  width: 280px;
+  height: 250px;
+  float: left;
+  padding: 20px;
+  border: 2px solid #9a8c98;
+  margin: 15px;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.1);
+}
+
+#myspan {
+  color: #d00000;
+  font-weight: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #0077b6;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+/* Form box */
+.form-box {
+  background: #f1f1f1;
+  padding: 20px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 12px;
+  border: 2px solid #0077b6;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-box label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.form-box input[type="text"] {
+  width: 95%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #888;
+}
+
+.form-box input[type="submit"] {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-box input[type="submit"]:hover {
+  background-color: #023e8a;
+}
